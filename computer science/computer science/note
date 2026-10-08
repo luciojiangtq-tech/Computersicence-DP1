@@ -1,0 +1,6 @@
+
+#set() 集合：去重，无顺序
+#dict.fromkeys(list, 0) 把list变成一个值全是0的字典
+#dict(zip(list1, list2)) 把list1变成一个值是list2的字典
+#print(''.join(list)) 把list变成字符串s
+#index(),索引一个元素
