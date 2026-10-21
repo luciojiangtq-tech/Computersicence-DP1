@@ -3,3 +3,9 @@
 #dict.fromkeys(list, 0) 把list变成一个值全是0的字典
 #dict(zip(list1, list2)) 把list1变成一个值是list2的字典
 #print(''.join(list)) 把list变成字符串s
+#index(),索引一个元素
+#*名字 接受不限量的变量形成元组
+#", ".join() 组成字符串
+#d.setdefault('e', 5) 存在返值，滚木添加并赋值
+#sorted(排序对象, key=决定排序的函数, reverse=True从大到小)
+#table = dict(sorted(teamname_list.items(), key=lambda i: i[1], reverse=True))

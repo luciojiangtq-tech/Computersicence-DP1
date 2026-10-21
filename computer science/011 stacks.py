@@ -50,9 +50,7 @@ def code_checkthree():
         elif i in close_bracket:
             try:
                 type = bracket.pop(-1)
-                if close_bracket.index(i) == open_bracket.index(type):
-                    pass
-                else:
+                if close_bracket.index(i) != open_bracket.index(type):
                     return False
             except:
                 return False
